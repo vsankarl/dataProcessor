@@ -6,7 +6,7 @@ In this exercise, we use a movie database and various provider feeds. Providers 
 
 The aim is to develop a matching algorithm that takes the provider feed (e.g., xbox_feed.csv) and matches the records with attributes in the movie database.
 
-The results of the matching process are saved in output/results/com.demo.matcher.MatcherImplTest.txt. These results are run as a test.
+The results of the matching process are saved in output/results/com.demo.matcher.MatcherImplTest.txt. These results are generated during test phase.
 
 ## Provider feeds
 
