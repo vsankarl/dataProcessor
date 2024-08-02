@@ -1,0 +1,15 @@
+14:53:33.078 INFO  com.demo.matcher.MatcherImplTest - reading movies.csv
+14:53:33.088 INFO  com.demo.matcher.MatcherImplTest - headers: id,title,year
+14:53:33.088 INFO  com.demo.matcher.MatcherImplTest - reading actors_and_directors.csv
+14:53:33.089 INFO  com.demo.matcher.MatcherImplTest - headers: movie_id,name,role
+14:53:33.093 INFO  com.demo.matcher.MatcherImpl - importing database
+14:53:37.049 INFO  com.demo.matcher.MatcherImpl - database imported
+14:53:37.049 INFO  com.demo.matcher.MatcherImplTest - reading xbox_feed.csv
+14:53:37.111 INFO  com.demo.matcher.MatcherImplTest - headers: Country,StudioNetwork,MediaId,Title,OriginalReleaseDate,MediaType,SeriesMediaId,SeasonMediaId,SeriesTitle,SeasonNumber,EpisodeNumber,LicenseType,ActualRetailPrice,OfferStartDate,OfferEndDate,Actors,Director,XboxLiveURL
+14:53:43.611 INFO  com.demo.matcher.MatcherImplTest - closing movies.csv
+14:53:43.611 INFO  com.demo.matcher.MatcherImplTest - close movies.csv
+14:53:43.611 INFO  com.demo.matcher.MatcherImplTest - closing actors_and_directors.csv
+14:53:43.611 INFO  com.demo.matcher.MatcherImplTest - close actors_and_directors.csv
+14:53:43.611 INFO  com.demo.matcher.MatcherImplTest - closing xbox_feed.csv
+14:53:43.642 INFO  com.demo.matcher.MatcherImplTest - close xbox_feed.csv
+14:53:43.642 INFO  com.demo.matcher.MatcherImplTest - Total items matched: 6854
