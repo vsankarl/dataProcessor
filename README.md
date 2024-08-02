@@ -35,6 +35,8 @@ Provider feeds include information about the availability of a given movie or TV
 
 # How to run?
    < Some directory >\dataProcessor> mvn clean
+   
    < Some directory >\dataProcessor> mvn package
+   
    See the results under < Some directory >\dataProcessor\output\test\com.demo.matcher.MatcherImplTest-output.txt
 
