@@ -16,7 +16,6 @@
     <maven.compiler.target>11</maven.compiler.target>
   </properties>
 
-  <!-- feel free to add dependencies as you see fit -->
   <dependencies>
     <dependency>
       <groupId>ch.qos.logback</groupId>
@@ -47,7 +46,7 @@
           <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.2.0</version> <!-- You can use the version 3.8.0 if available -->
+                <version>3.2.0</version>
                 <configuration>
                     <archive>
                         <manifest>

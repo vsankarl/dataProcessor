@@ -11,7 +11,7 @@ The results of the matching process are saved in output/results/com.demo.matcher
 ## Provider feeds
 
 Provider feeds include information about the availability of a given movie or TV show. They typically contain metadata such as the title, director, and release year, along with availability information like price and the fulfillment URL. Different feeds may include varying types of metadata, leading to inconsistencies between data sources.
- 
+
 ## Data Files ( found in test/resources )
 
 **movies.csv** : a comma-separated file of around 200,000 movies, with the following schema:
@@ -33,4 +33,8 @@ Provider feeds include information about the availability of a given movie or TV
 | ------- | ----- | ------------------- | --------- | ------ | -------- | ----------- |
 | 531b964f-0cb9-4968-9b77-e547f2435225| Furious 7 | 4/13/2015 | Movie | Vin Diesel, Paul Walker, Jason Statham | James Wan | video.xbox.com  
 
+# How to run?
+<Some directory>\dataProcessor> mvn clean
+<Some directory>\dataProcessor> mvn package
+See the results under <Some directory>\dataProcessor\output\test\com.demo.matcher.MatcherImplTest-output.txt
 
